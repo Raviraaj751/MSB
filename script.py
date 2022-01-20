@@ -24,9 +24,7 @@ class Script(object):
 
 <code>» Tʜɪs Is A Oᴘᴇɴ Sᴏᴜʀᴄᴇ Bᴏᴛ.</code>
 
-<b>✯ Usᴀɢᴇs:</b>
-
-<b>• <a href=https://t.me/iFilms_Support>iFɪʟᴍs Sᴜᴘᴘᴏʀᴛ !</a></b>
+<code>» Fᴏʀ Mᴏʀᴇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ.</code>
 
 <b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
     MANUELFILTER_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Fɪʟᴛᴇʀs Mᴏᴅᴜʟᴇ ⍟</b>
