@@ -28,7 +28,7 @@ class Script(object):
 
 <b>• <a href=https://t.me/iFilms_Support>iFɪʟᴍs Sᴜᴘᴘᴏʀᴛ !</a></b>
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>""""""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
     MANUELFILTER_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Fɪʟᴛᴇʀs Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» Fɪʟᴛᴇʀ Is Tʜᴇ Fᴇᴀᴛᴜʀᴇ Wᴇʀᴇ Usᴇʀs Cᴀɴ Sᴇᴛ Aᴜᴛᴏᴍᴀᴛᴇᴅ Rᴇᴘʟɪᴇs Fᴏʀ A Pᴀʀᴛɪᴄᴜʟᴀʀ Kᴇʏᴡᴏʀᴅ.</code>
