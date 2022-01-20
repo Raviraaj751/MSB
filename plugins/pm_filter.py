@@ -455,7 +455,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʏᴏᴜᴛᴜʙᴇ', callback_data='music'),
             InlineKeyboardButton('ɢᴀᴍᴇs', callback_data='games')
             ],[
-            InlineKeyboardButton('ʟɪɴᴋs', callback_data='linkgen'),
+            InlineKeyboardButton('ɢᴜɪᴅᴇ', callback_data='guide'),
             InlineKeyboardButton('zᴏᴍʙɪᴇs', callback_data='zombies'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
@@ -589,14 +589,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "linkgen":
+    elif query.data == "guide":
         buttons = [[
             InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('Cʟᴏsᴇ ✗', callback_data='close_data')   
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=Script.LINKGEN_TXT,
+            text=Script.GUIDE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
