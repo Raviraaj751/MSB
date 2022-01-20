@@ -22,11 +22,13 @@ class Script(object):
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: ᴠ3.0.1 [Sᴛᴀʙʟᴇ]</b>"""
     SOURCE_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Sᴏᴜʀᴄᴇ Mᴏᴅᴜʟᴇ ⍟</b>
 
-<b>• Tʜɪs Is A Oᴘᴇɴ Sᴏᴜʀᴄᴇ Bᴏᴛ.</b>
+<code>» Tʜɪs Is A Oᴘᴇɴ Sᴏᴜʀᴄᴇ Bᴏᴛ.</code>
 
-<b>• Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ: <a href=https://t.me/iFilms_Support>iFɪʟᴍs Sᴜᴘᴘᴏʀᴛ ❤️‍🔥</a></b>
+<b>✯ Usᴀɢᴇs:</b>
 
-<b>• Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ: <a href=https://t.me/Filmokamella>Tᴇᴀᴍ iFɪʟᴍs ❤️‍🔥</a></b>"""
+<b>• <a href=https://t.me/iFilms_Support>iFɪʟᴍs Sᴜᴘᴘᴏʀᴛ !</a></b>
+
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>""""""
     MANUELFILTER_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Fɪʟᴛᴇʀs Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» Fɪʟᴛᴇʀ Is Tʜᴇ Fᴇᴀᴛᴜʀᴇ Wᴇʀᴇ Usᴇʀs Cᴀɴ Sᴇᴛ Aᴜᴛᴏᴍᴀᴛᴇᴅ Rᴇᴘʟɪᴇs Fᴏʀ A Pᴀʀᴛɪᴄᴜʟᴀʀ Kᴇʏᴡᴏʀᴅ.</code>
