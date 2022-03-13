@@ -3,7 +3,7 @@
 import os
 from pyrogram import Client, filters
 from pyrogram.errors.exceptions.bad_request_400 import UserNotParticipant, MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty
-from info import IMDB_TEMPLATE
+from info import IMDB_TEMPLATE, SUPPORT, UPDATES
 from utils import extract_user, get_file_id, get_poster, last_online
 import time
 from datetime import datetime
@@ -164,7 +164,7 @@ async def imdb_callback(bot: Client, quer_y: CallbackQuery):
             [
                 InlineKeyboardButton(
                     text=f"📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ !",
-                    url="https://t.me/Filmokamella"
+                    url="https://t.me/{UPDATES}"
                 )
             ],
         ]
