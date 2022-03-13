@@ -10,7 +10,7 @@ from pyrogram.errors.exceptions.bad_request_400 import ChatAdminRequired
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from database.ia_filterdb import Media, get_file_details, unpack_new_file_id
 from database.users_chats_db import db
-from info import CHANNELS, ADMINS, AUTH_CHANNEL, LOG_CHANNEL, PICS, CUSTOM_FILE_CAPTION
+from info import CHANNELS, ADMINS, AUTH_CHANNEL, LOG_CHANNEL, PICS, CUSTOM_FILE_CAPTION, UPDATES, SUPPORT
 from utils import get_size, is_subscribed, temp
 import re
 logger = logging.getLogger(__name__)
@@ -20,7 +20,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Updates', url='https://t.me/Filmokamella')
+                InlineKeyboardButton('🤖 Updates', url='https://t.me/{UPDATES}')
             ],
             [
                 InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -41,8 +41,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇs', url='https://t.me/Filmokamella'),
-            InlineKeyboardButton('🎻 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/iFilms_Support')
+            InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇs', url=f'https://t.me/{UPDATES}'),
+            InlineKeyboardButton('🎻 Sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/{SUPPORT}')
             ],[
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'), 
             InlineKeyboardButton('📌 Aʙᴏᴜᴛ', callback_data='about')
@@ -89,8 +89,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇs', url='https://t.me/Filmokamella'),
-            InlineKeyboardButton('🎻 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/iFilms_Support')
+            InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇs', url=f'https://t.me/{UPDATES}'),
+            InlineKeyboardButton('🎻 Sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/{SUPPORT}')
             ],[
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'), 
             InlineKeyboardButton('📌 Aʙᴏᴜᴛ', callback_data='about')
@@ -124,10 +124,10 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!', url='https://t.me/Filmokamella'),
+            InlineKeyboardButton('📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!', url=f'https://t.me/{UPDATES}'),
         ],
         [
-            InlineKeyboardButton('🎻 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/iFilms_Support'),
+            InlineKeyboardButton('🎻 Sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/{SUPPORT}'),
         ]
         ]
     await client.send_cached_media(
