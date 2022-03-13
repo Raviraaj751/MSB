@@ -1,6 +1,7 @@
 # iFilmsBotz
 
 import random, os
+from info import UPDATES, SUPPORT
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -19,5 +20,5 @@ async def password(bot, update):
     else:
         random_value = "".join(random.sample(password, limit))
         text = f"**Limit :-** `{str(limit)}`.\n**Password :-** `{random_value}`**\n\nJᴏɪɴ Cʜᴀɴɴᴇʟ: @Filmokamella 📢",
-        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!', url='https://telegram.me/Filmokamella')]])
+        reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton('📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!', url=f'https://telegram.me/{UPDATES}')]])
     await message.edit_text(text, True)
