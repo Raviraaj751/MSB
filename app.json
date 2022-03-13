@@ -20,30 +20,37 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your Bot Token. Get from @BotFather.",
+            "value": "1989381430:AAFMBCqGkK5TEMqZe7OMy70pPQnakTuI-hM",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "7185665",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "d87fe425a8127e5e64e30cb29cb64ff5",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "value": "-1001512591839 -1001740810830 -1001553525090",
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "value": "1901499449",
             "required": true
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
+            "value": "https://telegra.ph/file/85e99ae92cfe78f14237b.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
-            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "description": "Bot Logs, Give a channel id with -100xxxxxxx",
+            "value": "-1001649816433",
             "required": true
         },
         "AUTH_USERS": {
@@ -52,18 +59,33 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "value": "-1001610529868",
             "required": false
         },
         "DATABASE_URI": {
-            "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/nj-lJfkgb6w",
+            "description": "mongoDB URI. Get this value from https://www.mongodb.com.",
+            "value": "mongodb+srv://iFilms_Screenshot:iFilms_Screenshot@cluster0.5zgpv.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
-            "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/nj-lJfkgb6w",
+            "description": "Name of the database in mongoDB.",
+            "value": "Cluster0",
             "required": false
         },
         "UPSTREAM_REPO": {
             "description": "NOT MANDATORY",
+            "value": "https://iflilmsbotz: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@github.com/ifilmsbotz/msb",
+            "required": false
+        },
+        "CUSTOM_FILE_CAPTION": {
+            "description": "NOT MANDATORY",
+            "value": "<code>🏷 Tɪᴛʟᴇ : {file_name}</code>
+
+<code>💿 Sɪᴢᴇ : {file_size}</code>
+
+<code>🔊 Aᴜᴅɪᴏ : Gᴇɴᴇʀᴀᴛᴇ Sᴀᴍᴘʟᴇ Vɪᴅᴇᴏ Tᴏ Kɴᴏᴡ Iᴛ</code>
+
+📢 Jᴏɪɴ : @FilmokamellaX ❤️‍🔥",
             "required": false
         },
         "COLLECTION_NAME": {
