@@ -1,6 +1,7 @@
 # iFilmsBotz
 
 import os
+from info import UPDATES, SUPPORT
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message, CallbackQuery
 from telegraph import upload_file
@@ -47,7 +48,7 @@ async def telegraph(client, message):
                     InlineKeyboardButton(text="Oᴘᴇɴ 🚩", url=f"https://telegra.ph{response[0]}"),
                     InlineKeyboardButton(text="Sʜᴀʀᴇ 🔗", url=f"https://telegram.me/share/url?url=https://telegra.ph{response[0]}")
                 ],
-                [InlineKeyboardButton(text="📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!", url="https://t.me/Filmokamella")]
+                [InlineKeyboardButton(text="📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!", url=f"https://t.me/{UPDATES}")]
             ]
         )
     )
