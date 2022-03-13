@@ -408,8 +408,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇs', url='https://t.me/Filmokamella'),
-            InlineKeyboardButton('🎻 Sᴜᴘᴘᴏʀᴛ', url='https://t.me/iFilms_Support')
+            InlineKeyboardButton('📢 Uᴘᴅᴀᴛᴇs', url=f'https://t.me/{UPDATES}'),
+            InlineKeyboardButton('🎻 Sᴜᴘᴘᴏʀᴛ', url=f'https://t.me/{SUPPORT}')
             ],[
             InlineKeyboardButton('📚 Hᴇʟᴘ', callback_data='help'), 
             InlineKeyboardButton('📌 Aʙᴏᴜᴛ', callback_data='about')
@@ -475,7 +475,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Sᴛᴀᴛᴜs', callback_data='stats'),
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ', callback_data='source')
             ],[
-            InlineKeyboardButton('Rᴇᴘᴏʀᴛ Bᴜɢs & Fᴇᴇᴅʙᴀᴄᴋ', url='https://t.me/iFilms_Support')
+            InlineKeyboardButton('Rᴇᴘᴏʀᴛ Bᴜɢs & Fᴇᴇᴅʙᴀᴄᴋ', url=f'https://t.me/{SUPPORT}')
             ],[
             InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ ✗', callback_data='close_data')
@@ -534,7 +534,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "ifsupd":
         buttons = [[
-            InlineKeyboardButton('📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!', url='https://t.me/Filmokamella')
+            InlineKeyboardButton('📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!', url=f'https://t.me/{UPDATES}')
             ],[
             InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='help'),
             InlineKeyboardButton('Cʟᴏsᴇ ✗', callback_data='close_data')   
@@ -951,7 +951,7 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        one_button = InlineKeyboardMarkup([[InlineKeyboardButton("🙂 Rᴇϙᴜᴇsᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Hᴇʀᴇ!", url="https://t.me/iFilms_Support")]])
+        one_button = InlineKeyboardMarkup([[InlineKeyboardButton("🙂 Rᴇϙᴜᴇsᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Hᴇʀᴇ!", url=f"https://t.me/{SUPPORT}")]])
         k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>Hey, I Couldn't Find The Movie You're Looking For 😔😔</b>\n\n<b>Check Your Spelling In Google And Try Again.</b>\n\n<b>👉 If You Didn't Find That Film Use me👇</b>", reply_markup = one_button)
         await asyncio.sleep(12)
         await k.delete()
@@ -978,7 +978,7 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist)) # removing duplicates
     if movielist:
-        one_button = InlineKeyboardMarkup([[InlineKeyboardButton("🙂 Rᴇϙᴜᴇsᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Hᴇʀᴇ!", url="https://t.me/iFilms_Support")]])
+        one_button = InlineKeyboardMarkup([[InlineKeyboardButton("🙂 Rᴇϙᴜᴇsᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Hᴇʀᴇ!", url=f"https://t.me/{SUPPORT}")]])
         k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>Hey, I Couldn't Find The Movie You're Looking For 😔😔</b>\n\n<b>Check Your Spelling In Google And Try Again.</b>\n\n<b>👉 If You Didn't Find That Film Use me👇</b>", reply_markup = one_button)
         await asyncio.sleep(20)
         await k.delete()
@@ -986,7 +986,7 @@ async def advantage_spell_chok(msg):
         return
 
     if not movielist:
-        one_button = InlineKeyboardMarkup([[InlineKeyboardButton("🙂 Rᴇϙᴜᴇsᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Hᴇʀᴇ!", url="https://t.me/iFilms_Support")]])
+        one_button = InlineKeyboardMarkup([[InlineKeyboardButton("🙂 Rᴇϙᴜᴇsᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Hᴇʀᴇ!", url=f"https://t.me/{SUPPORT}")]])
         k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>Hey, I Couldn't Find The Movie You're Looking For 😔😔</b>\n\n<b>Check Your Spelling In Google And Try Again.</b>\n\n<b>👉 If You Didn't Find That Film Use me👇</b>", reply_markup = one_button)
         await asyncio.sleep(20)
         await k.delete()
