@@ -5,19 +5,19 @@ class Script(object):
 
 <b>Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Aɴᴅ Sᴇʀɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍</b>
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     HELP_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Hᴇʟᴘ Mᴏᴅᴜʟᴇ ⍟</b>
 
 • Iᴛ's Nᴏᴛ Cᴏᴍᴘʟɪᴄᴀᴛᴇᴅ....🤓
 • Dᴏɴ'ᴛ Sᴘᴀᴍ Mᴇ...🤒
 • Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Cᴏᴍᴍᴀɴᴅs...😍
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: <a href=https://t.me/Auto_Filter2_Bot>Mɪss Lᴇɪɢʜᴛᴏɴ</a></b>
 
 <b>✯ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/iFilms_Owner>༺Leͥgeͣnͫd༻</a></b>
 
-<b>✯ Mʏ Gʀᴏᴜᴘ: <a href=https://t.me/iFilmsxChat>iFɪℓᴍs Cнατ</a></b>
+<b>✯ Mʏ Gʀᴏᴜᴘ: <a href=https://t.me/iFilmsChatz>iFɪℓᴍs Cнατ</a></b>
 
 <b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: ᴠ3.0.1 [Sᴛᴀʙʟᴇ]</b>"""
     SOURCE_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Sᴏᴜʀᴄᴇ Mᴏᴅᴜʟᴇ ⍟</b>
@@ -26,7 +26,7 @@ class Script(object):
 
 <code>» Fᴏʀ Mᴏʀᴇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ.</code>
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     MANUELFILTER_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Fɪʟᴛᴇʀs Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» Fɪʟᴛᴇʀ Is Tʜᴇ Fᴇᴀᴛᴜʀᴇ Wᴇʀᴇ Usᴇʀs Cᴀɴ Sᴇᴛ Aᴜᴛᴏᴍᴀᴛᴇᴅ Rᴇᴘʟɪᴇs Fᴏʀ A Pᴀʀᴛɪᴄᴜʟᴀʀ Kᴇʏᴡᴏʀᴅ.</code>
@@ -43,7 +43,7 @@ class Script(object):
 • /del - ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ғɪʟᴛᴇʀ ɪɴ ᴄʜᴀᴛ
 • /delall - ᴅᴇʟᴇᴛᴇ ᴛʜᴇ ᴡʜᴏʟᴇ ғɪʟᴛᴇʀs ɪɴ ᴀ ᴄʜᴀᴛ (ᴄʜᴀᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     STRING_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Sᴛʀɪɴɢ Mᴏᴅᴜʟᴇ ⍟</b>
     
 <code>» ᴛʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs</code>
@@ -53,7 +53,7 @@ class Script(object):
 • /pyrostring - ɢᴇɴᴇʀᴀᴛᴇ ᴘʏʀᴏ sᴛʀɪɴɢ.
 • /telestring - ɢᴇɴᴇʀᴀᴛᴇ ᴛᴇʟᴇᴛʜᴏɴ sᴛʀɪɴɢ.
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     GUIDE_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Gᴜɪᴅᴇ Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» ʜᴏᴡ ᴄᴀɴ ʏᴏᴜ ᴜsᴇ ᴏᴜʀ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ?</code>
@@ -66,7 +66,7 @@ class Script(object):
 
 • ᴄʜᴇᴄᴋ ᴏᴜᴛ ᴏᴛʜᴇʀ ᴍᴏᴅᴜʟᴇs ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     GAMES_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Gᴀᴍᴇs Mᴏᴅᴜʟᴇ ⍟</b>
 
 <b>✯ Cᴏᴍᴍᴀɴᴅs & Usᴀɢᴇs:</b>
@@ -82,14 +82,14 @@ class Script(object):
 
 <code>» ɢᴏ ᴛᴏ ᴘʟᴀʏ sᴛᴏʀᴇ ᴏʀ ᴀᴘᴘ sᴛᴏʀᴇ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ɢᴀᴍᴇ. ᴅᴏɴ'ᴛ ᴅɪsᴛᴜʀʙ ᴍᴇ 😜</code>
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     PMUSIC_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Mᴜsɪᴄ Mᴏᴅᴜʟᴇ ⍟</b>
 
 <b>✯ Cᴏᴍᴍᴀɴᴅs & Usᴀɢᴇs:</b>
 
 <code>» sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴀɴᴅ ᴄʜᴇᴄᴋ ᴏᴜᴛ ɪᴛ's ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ.</code>
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     IFSUPD_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Uᴘᴅᴀᴛᴇs Mᴏᴅᴜʟᴇ ⍟</b>"""
     BUTTON_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Bᴜᴛᴛᴏɴ Mᴏᴅᴜʟᴇ ⍟</b>
 
@@ -105,13 +105,13 @@ class Script(object):
 
 ★ Uʀʟ Bᴜᴛᴛᴏɴs:
 
-<code>[Button Text](buttonurl:https://t.me/Filmokamella)</code>
+<code>[Button Text](buttonurl:https://t.me/FilmokamellaX)</code>
 
 ★ Aʟᴇʀᴛ Bᴜᴛᴛᴏɴs:
 
 <code>[Button Text](buttonalert:ᴛʜɪs ɪs ᴀɴ ᴀʟᴇʀᴛ ᴍᴇssᴀɢᴇ)</code>
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     AUTOFILTER_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Aᴜᴛᴏ Mᴏᴅᴜʟᴇ ⍟</b>
 
 <b>✯ Cᴏᴍᴍᴀɴᴅs & Usᴀɢᴇs:</b>
@@ -121,7 +121,7 @@ class Script(object):
 • ғᴏʀᴡᴀʀᴅ ᴛʜᴇ ʟᴀsᴛ ᴍᴇssᴀɢᴇ ᴛᴏ ᴍᴇ ᴡɪᴛʜ ϙᴜᴏᴛᴇs.
 • ɪ'ʟʟ ᴀᴅᴅ ᴀʟʟ ᴛʜᴇ ғɪʟᴇs ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴍʏ ᴅʙ.
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     CONNECTION_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Cᴏɴɴᴇᴄᴛ Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» ᴜsᴇᴅ ᴛᴏ ᴄᴏɴɴᴇᴄᴛ ʙᴏᴛ ᴛᴏ ᴘᴍ ғᴏʀ ғɪʟᴛᴇʀs.</code>
@@ -137,7 +137,7 @@ class Script(object):
 • /disconnect  - ᴅɪsᴄᴏɴɴᴇᴄᴛ ғʀᴏᴍ ᴀ ᴄʜᴀᴛ.
 • /connections - ʟɪsᴛ ᴀʟʟ ᴄᴏɴɴᴇᴄᴛɪᴏɴs.
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     ADMIN_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Aᴅᴍɪɴ Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» ᴛʜɪs ᴍᴏᴅᴜʟᴇ ᴏɴʟʏ ᴡᴏʀᴋs ғᴏʀ ᴍʏ ᴀᴅᴍɪɴs</code>
@@ -156,7 +156,7 @@ class Script(object):
 • /channel - ᴛᴏ ɢᴇᴛ ʟɪsᴛ ᴏғ ᴀʟʟ ᴄʜᴀɴɴᴇʟs.
 • /broadcast - ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ.
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     STATUS_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Sᴛᴀᴛᴜs Mᴏᴅᴜʟᴇ ⍟</b>
 
 ★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
@@ -165,7 +165,7 @@ class Script(object):
 ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     PASTE_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Pᴀsᴛᴇ Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» ᴘᴀsᴛᴇ sᴏᴍᴇ ᴛᴇxᴛs ᴏʀ ᴅᴏᴄᴜᴍᴇɴᴛs ᴏɴ ᴀ ᴡᴇʙsɪᴛᴇ!</code>
@@ -175,7 +175,7 @@ class Script(object):
 • /paste [ᴛᴇxᴛ] - ᴘᴀsᴛᴇ ᴛʜᴇ ɢɪᴠᴇɴ ᴛᴇxᴛ ᴏɴ ᴘᴀsᴛʏ
 • /paste [ʀᴇᴘʟʏ] - ᴘᴀsᴛᴇ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴇxᴛ ᴏɴ ᴘᴀsᴛʏ
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     TGRAPH_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Tᴇʟᴇɢʀᴀᴘʜ Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» ᴡɪᴛʜ ᴛʜɪs ʏᴏᴜ ᴄᴀɴ ᴇᴀsɪʟʏ ᴜᴘʟᴏᴀᴅ ʏᴏᴜʀ ᴍᴇᴅɪᴀ ᴏɴ ᴛᴇʟᴇɢʀᴀᴘʜ's ᴡᴇʙsɪᴛᴇ!</code>
@@ -184,7 +184,7 @@ class Script(object):
 
 • /tgraph - ᴜᴘʟᴏᴀᴅ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴇᴅɪᴀ (ᴡɪᴛʜɪɴ 5ᴍʙ) ᴛᴏ ᴛᴇʟᴇɢʀᴀᴘʜ.
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     INFO_TXT ="""<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Usᴇʀs Mᴏᴅᴜʟᴇ ⍟</b>
 
 <b>✯ Cᴏᴍᴍᴀɴᴅs & Usᴀɢᴇs:</b>
@@ -192,7 +192,7 @@ class Script(object):
 • /id - ɢᴇᴛ ɪᴅ ᴏғ ᴀ sᴘᴇᴄɪғᴇᴅ ᴜsᴇʀ.
 • /info  - ɢᴇᴛ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴀ ᴜsᴇʀ.
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     GTRANS_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Tʀᴀɴsʟᴀᴛᴇ Mᴏᴅᴜʟᴇ ⍟</b>
     
 <code>» ᴛʀᴀɴsʟᴀᴛᴇ ᴛᴇxᴛs ᴛᴏ ᴀ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀɢᴇ!</code>
@@ -201,7 +201,7 @@ class Script(object):
 
 • /tr - [ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇ][ʀᴇᴘʟʏ] - ᴛʀᴀɴsʟᴀᴛᴇ ʀᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢᴇ ᴛᴏ sᴘᴇᴄɪғɪᴄ ʟᴀɴɢᴜᴀɢᴇ.
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     EXTRAMOD_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Sᴇᴀʀᴄʜ Mᴏᴅᴜʟᴇ ⍟</b>
 
 <b>✯ Cᴏᴍᴍᴀɴᴅs & Usᴀɢᴇs:</b>
@@ -209,7 +209,7 @@ class Script(object):
 • /imdb  - ɢᴇᴛ ᴛʜᴇ ғɪʟᴍ ɪɴғᴏ ғʀᴏᴍ ɪᴍᴅʙ.
 • /search  - ɢᴇᴛ ᴛʜᴇ ғɪʟᴍ ɪɴғᴏ ғʀᴏᴍ sᴏᴜʀᴄᴇs.
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     
     PURGE_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Sᴇᴀʀᴄʜ Mᴏᴅᴜʟᴇ ⍟</b>
 
@@ -219,7 +219,7 @@ class Script(object):
 
 • /purge  - ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴍᴇssᴀɢᴇs ғʀᴏᴍ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴍᴇssᴀɢᴇ, ᴛᴏ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴍᴇssᴀɢᴇ.
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""  
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""  
     RESTRIC_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Rᴇsᴛʀɪᴄᴛɪᴏɴs Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» sᴏᴍᴇ ᴘᴇᴏᴘʟᴇ ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴘᴜʙʟɪᴄʟʏ ʙᴀɴɴᴇᴅ; ᴛʜɪs ᴍᴏᴅᴜʟᴇ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ ᴅᴏ ᴛʜᴀᴛ ᴇᴀsɪʟʏ!</code>
@@ -236,7 +236,7 @@ class Script(object):
 - ᴍᴜᴛᴇ ᴀ ᴜsᴇʀ ғᴏʀ ᴛᴡᴏ ʜᴏᴜʀs.
 - /tmute @ᴜsᴇʀɴᴀᴍᴇ 2ʜ
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""   
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""   
     PIN_MESSAGE_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Pɪɴ Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» ᴀʟʟ ᴛʜᴇ ᴘɪɴ ʀᴇʟᴀᴛᴇᴅ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ғᴏᴜɴᴅ ʜᴇʀᴇ!</code>
@@ -251,7 +251,7 @@ class Script(object):
 • /pin - ᴘɪɴ ᴛʜᴇ ᴍᴇssᴀɢᴇ ʏᴏᴜ ʀᴇᴘʟɪᴇᴅ ᴛᴏ.
 • /unpin -  ᴜɴᴘɪɴ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴘɪɴɴᴇᴅ ᴍᴇssᴀɢᴇ.
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     URL_SHORTNER_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Uʀʟs Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» ᴜsɪɴɢ ᴛʜɪs ʏᴏᴜ ᴄᴀɴ sʜᴏʀᴛ ʏᴏᴜʀ ʟɪɴᴋs!</code>
@@ -261,9 +261,9 @@ class Script(object):
 • /short <code>(ʟɪɴᴋ)</code> - ɪ ᴡɪʟʟ sᴇɴᴅ ᴛʜᴇ sʜᴏʀᴛᴇᴅ ʟɪɴᴋs.
 
 ᴇxᴀᴍᴘʟᴇ:
-<code>/short https://t.me/Filmokamella</code>
+<code>/short https://t.me/FilmokamellaX</code>
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     TTS_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ TTS Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» ᴀ ᴍᴏᴅᴜʟᴇ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ᴛᴇxᴛ ᴛᴏ ᴠᴏɪᴄᴇ ᴡɪᴛʜ ʟᴀɴɢᴜᴀɢᴇ sᴜᴘᴘᴏʀᴛ!</code>
@@ -272,7 +272,7 @@ class Script(object):
 
 • /tts - ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴛᴇxᴛ ᴍᴇssᴀɢᴇ ᴡɪᴛʜ ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇ ᴛᴏ ᴄᴏɴᴠᴇʀᴛ ᴀs ᴀᴜᴅɪᴏ.
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     MUSIC_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Mᴜsɪᴄ Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» ᴍᴜsɪᴄ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ ᴍᴏᴅᴜʟᴇ, ғᴏʀ ᴛʜᴏsᴇ ᴡʜᴏ ʟᴏᴠᴇ ᴍᴜsɪᴄ!</code>
@@ -282,7 +282,7 @@ class Script(object):
 • /video ᴏʀ /mp4 (sᴏɴɢɴᴀᴍᴇ) - ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ ғʀᴏᴍ ʏᴛ sᴇʀᴠᴇʀs.
 • /ytthumb (ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ) - ᴅᴏᴡɴʟᴏᴀᴅ ʏᴏᴜᴛᴜʙᴇ ᴛʜᴜᴍʙɴᴀɪʟs.
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     PASSWORD_GEN_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Pɪɴ Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» ᴛʜᴇʀᴇ ɪs ɴᴏᴛʜɪɴɢ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ. sᴇɴᴅ ᴍᴇ ᴛʜᴇ ʟɪᴍɪᴛ ᴏғ ʏᴏᴜʀ ᴘᴀssᴡᴏʀᴅ.
@@ -298,7 +298,7 @@ class Script(object):
 
 • /genpassword ᴏʀ /genpw <code>2021</code>
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     ZOMBIES_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Zᴏᴍʙɪᴇs Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» ᴋɪᴄᴋ ɪɴᴄᴀᴛɪᴠᴇ ᴍᴇᴍʙᴇʀs ғʀᴏᴍ ɢʀᴏᴜᴘ. ᴀᴅᴅ ᴍᴇ ᴀs ᴀᴅᴍɪɴ ᴡɪᴛʜ ʙᴀɴ ᴜsᴇʀs ᴘᴇʀᴍɪssɪᴏɴ ɪɴ ɢʀᴏᴜᴘ!</code>
@@ -310,7 +310,7 @@ class Script(object):
 • /inkick long_time_ago - ᴛᴏ ᴋɪᴄᴋ ᴍᴇᴍʙᴇʀs ᴡʜᴏ ᴀʀᴇ ᴏғғʟɪɴᴇ ғᴏʀ ᴍᴏʀᴇ ᴛʜᴀɴ ᴀ ᴍᴏɴᴛʜ ᴀɴᴅ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs.
 • /dckick - ᴛᴏ ᴋɪᴄᴋ ᴅᴇʟᴇᴛᴇᴅ ᴀᴄᴄᴏᴜɴᴛs.
 
-<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella ⚔️</b>"""
+<b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @FilmokamellaX ⚔️</b>"""
     CREATOR_REQUIRED = """❗ ʏᴏᴜ ʜᴀᴠᴇ ᴛᴏ ʙᴇ ᴛʜᴇ ɢʀᴏᴜᴘ ᴄʀᴇᴀᴛᴏʀ ᴛᴏ ᴅᴏ ᴛʜᴀᴛ ❗"""
       
     INPUT_REQUIRED = "❗ **ᴀʀɢᴜᴍᴇɴᴛs ʀᴇϙᴜɪʀᴇᴅ** ❗"
