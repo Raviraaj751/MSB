@@ -2,6 +2,7 @@
 
 import os
 import aiohttp
+from info import UPDATES, SUPPORT
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InlineQueryResultArticle, InputTextMessageContent
 from pyrogram.handlers import MessageHandler
@@ -14,7 +15,7 @@ GPLINKS_API = os.environ.get("GPLINKS_API", "008ccaedd6061ad1948838f410947603de9
 
 reply_markup = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text='📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!', url='https://telegram.me/Filmokamella')
+        InlineKeyboardButton(text='📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!', url=f'https://telegram.me/{UPDATES}')
         ]]
     )
 
