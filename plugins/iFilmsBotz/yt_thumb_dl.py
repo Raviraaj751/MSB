@@ -3,6 +3,7 @@
 import os
 import time
 import ytthumb
+from info import UPDATES, SUPPORT
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -27,7 +28,7 @@ async def send_thumbnail(bot, update):
         )
         await update.reply_photo(
             photo=thumbnail,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!', url='https://telegram.me/Filmokamella')]]),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!', url='https://telegram.me/{UPDATES}')]]),
             quote=True
         )
         await message.delete()
@@ -35,5 +36,5 @@ async def send_thumbnail(bot, update):
         await message.edit_text(
             text="**Please Use** /ytthumb (youtube link)\n\n**Example:** `/ytthumb https://youtu.be/h6PtzFYaMxQ`",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!', url='https://telegram.me/Filmokamella')]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!', url='https://telegram.me/{UPDATES}')]])
         )
