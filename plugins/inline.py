@@ -13,7 +13,7 @@ from pyrogram.errors.exceptions.bad_request_400 import QueryIdInvalid
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from database.ia_filterdb import get_search_results
 from utils import is_subscribed, get_size
-from info import CACHE_TIME, AUTH_USERS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION
+from info import CACHE_TIME, AUTH_USERS, AUTH_CHANNEL, CUSTOM_FILE_CAPTION, SUPPORT, UPDATES
 
 logger = logging.getLogger(__name__)
 cache_time = 0 if AUTH_USERS or AUTH_CHANNEL else CACHE_TIME
@@ -103,7 +103,7 @@ def get_reply_markup(query):
             InlineKeyboardButton('🎉 Sᴇᴀʀᴄʜ Aɢᴀɪɴ 🎉', switch_inline_query_current_chat=query)
         ],
         [
-             InlineKeyboardButton('📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!', url='https://t.me/Filmokamella')
+             InlineKeyboardButton('📢 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ!', url=f'https://t.me/{UPDATES}')
         ]
         ]
     return InlineKeyboardMarkup(buttons)
