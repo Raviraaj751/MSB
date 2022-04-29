@@ -86,10 +86,6 @@
             "description": "NOT MANDATORY",
             "value": "<code>🏷 Tɪᴛʟᴇ : {file_name}</code>
 
-<code>💿 Sɪᴢᴇ : {file_size}</code>
-
-<code>🔊 Aᴜᴅɪᴏ : Gᴇɴᴇʀᴀᴛᴇ Sᴀᴍᴘʟᴇ Vɪᴅᴇᴏ Tᴏ Kɴᴏᴡ Iᴛ</code>
-
 📢 Jᴏɪɴ : @FilmokamellaX ❤️‍🔥",
             "required": false
         },
