@@ -84,7 +84,13 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "NOT MANDATORY",
-            "value": "📢 Jᴏɪɴ : @FilmokamellaX ❤️‍🔥",
+            "value": "<code>🏷 Tɪᴛʟᴇ : {file_name}</code>
+
+<code>💿 Sɪᴢᴇ : {file_size}</code>
+
+<code>🔊 Aᴜᴅɪᴏ : Gᴇɴᴇʀᴀᴛᴇ Sᴀᴍᴘʟᴇ Vɪᴅᴇᴏ Tᴏ Kɴᴏᴡ Iᴛ</code>
+
+📢 Jᴏɪɴ : @FilmokamellaX ❤️‍🔥",
             "required": false
         },
         "COLLECTION_NAME": {
