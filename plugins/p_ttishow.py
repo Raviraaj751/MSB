@@ -49,7 +49,7 @@ async def save_group(bot, message):
     else:
         if MELCOW_NEW_USERS:
             for u in message.new_chat_members:
-                if message.chat.id in filters.chat(chats=MY_CHATS):
+                if message.chat.id in filters.chat(chats=-1001114885212):
                     try:
                        button = InlineKeyboardMarkup(
                        [[
