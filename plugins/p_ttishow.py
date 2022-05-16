@@ -50,16 +50,18 @@ async def save_group(bot, message):
         if MELCOW_NEW_USERS:
             for u in message.new_chat_members:
                 if message.chat.id in filters.chat(chats=-1001114885212):
+                if (temp.MELCOW).get('welcome') is not None:
                     try:
-                        await message.reply_photo(photo="https://telegra.ph/file/490f26ba76ecc9961c47c.jpg", caption=f"<b>Hᴇʏ {u.mention}, Wᴇʟᴄᴏᴍᴇ To {message.chat.title}</b>\n\n<b> Wʀɪᴛᴇ Oɴʟʏ Mᴏᴠɪᴇ & Sᴇʀɪᴇs Nᴀᴍᴇ.</b>\n\n<b>Usᴇʀ Dᴇᴛᴀɪʟs 🥡 :</b>\n<code>{message.from_user.id}</code>\n\n<b>Mᴜsᴛ Rᴇᴀᴅ Rᴜʟᴇs ᴏꜰ ᴛʜɪꜱ ɢʀᴏᴜᴘ 🎯</b>")
-    else:
-        if MELCOW_NEW_USERS:
-            for u in message.new_chat_members:
-                if not message.chat.id in filters.chat(chats=-1001114885212):
-                    try:
-                        await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b>")
+                        await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
+                temp.MELCOW['welcome'] = k
+        button = InlineKeyboardMarkup(
+        [[
+           InlineKeyboardButton("ɢᴏᴏɢʟᴇ ꜱᴇᴀʀᴄʜ", url=f"https://www.google.com/"),
+           InlineKeyboardButton("ɪᴍᴅʙ ꜱᴇᴀʀᴄʜ", url=f"https://www.imdb.com/")
+        ]])
+        k = await message.reply_photo(photo="https://telegra.ph/file/490f26ba76ecc9961c47c.jpg", caption=f"<b>Hᴇʏ {u.mention}, Wᴇʟᴄᴏᴍᴇ To {message.chat.title}</b>\n\n<b> Wʀɪᴛᴇ Oɴʟʏ Mᴏᴠɪᴇ & Sᴇʀɪᴇs Nᴀᴍᴇ.</b>\n\n<b>Usᴇʀ Dᴇᴛᴀɪʟs 🥡 :</b>\n<code>{message.from_user.id}</code>\n\n<b>Mᴜsᴛ Rᴇᴀᴅ Rᴜʟᴇs ᴏꜰ ᴛʜɪꜱ ɢʀᴏᴜᴘ 🎯</b>", reply_markup=button)
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
