@@ -55,15 +55,11 @@ async def save_group(bot, message):
                     except:
                         pass
                     try:
-            for u in message.new_chat_members:
-                 if (temp.MELCOW).get('welcome') is not None:
+                 if not message.chat.id in filters.chat(chats=-1001114885212):
                     try:
-                        await (temp.MELCOW['welcome']).delete()
-                    except Exception as filters.chat(chats=-1001114885212):
-                        pass
+                        await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b>")
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
