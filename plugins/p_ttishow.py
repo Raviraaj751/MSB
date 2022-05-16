@@ -3,7 +3,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong, PeerIdInvalid
-from info import ADMINS, LOG_CHANNEL, SUPPORT_CHAT, MELCOW_NEW_USERS, UPDATES, SUPPORT
+from info import ADMINS, LOG_CHANNEL, SUPPORT_CHAT, MELCOW_NEW_USERS, UPDATES, SUPPORT, MY_CHATS
 from database.users_chats_db import db
 from database.ia_filterdb import Media
 from utils import get_size, temp
@@ -49,14 +49,14 @@ async def save_group(bot, message):
     else:
         if MELCOW_NEW_USERS:
             for u in message.new_chat_members:
-                if message.chat.id in filters.chat(chats=-1001114885212):
+                if message.chat.id in filters.chat(chats=MY_CHATS):
                     try:
                        button = InlineKeyboardMarkup(
                        [[
-                          InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"t.me/Filmokamella"),
+                          InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"t.me/iFilms_Studios"),
                           InlineKeyboardButton("ʀᴜʟᴇs", url=f"http://t.me/MissRose_bot?start=rules_-1001114885212")
                        ]])
-                       await message.reply_photo(photo="https://telegra.ph/file/490f26ba76ecc9961c47c.jpg", caption=f"<b>Hᴇʏ {u.mention} Wᴇʟᴄᴏᴍᴇ To {message.chat.title}</b>\n\n<b>Wʀɪᴛᴇ Oɴʟʏ Mᴏᴠɪᴇ & Sᴇʀɪᴇs Nᴀᴍᴇ.</b>\n\n<b>Usᴇʀ Dᴇᴛᴀɪʟs 🥡 :</b>\n<b>{message.from_user.id}</b>\n\n<b>Mᴜsᴛ Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Aɴᴅ Rᴇᴀᴅ Rᴜʟᴇs 🎯</b>", reply_markup=button)
+                       await message.reply_photo(photo="https://telegra.ph/file/490f26ba76ecc9961c47c.jpg", caption=f"<b>Hᴇʏ {u.mention} Wᴇʟᴄᴏᴍᴇ To {message.chat.title} !</b>\n\n<b>Wʀɪᴛᴇ Oɴʟʏ Mᴏᴠɪᴇ & Sᴇʀɪᴇs Nᴀᴍᴇ.</b>\n\n<b>Usᴇʀ Dᴇᴛᴀɪʟs 🥡 :</b>\n<b>{message.from_user.id}</b>\n\n<b>Mᴜsᴛ Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Aɴᴅ Rᴇᴀᴅ Rᴜʟᴇs 🎯</b>", reply_markup=button)
                     except:
                         pass
       
