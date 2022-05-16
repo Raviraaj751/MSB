@@ -54,8 +54,16 @@ async def save_group(bot, message):
                         await message.reply_photo(photo="https://telegra.ph/file/490f26ba76ecc9961c47c.jpg", caption=f"<b>Hᴇʏ {u.mention}, Wᴇʟᴄᴏᴍᴇ To {message.chat.title}</b>\n\n<b> Wʀɪᴛᴇ Oɴʟʏ Mᴏᴠɪᴇ & Sᴇʀɪᴇs Nᴀᴍᴇ.</b>\n\n<b>Usᴇʀ Dᴇᴛᴀɪʟs 🥡 :</b>\n<code>{message.from_user.id}</code>\n\n<b>Mᴜsᴛ Rᴇᴀᴅ Rᴜʟᴇs ᴏꜰ ᴛʜɪꜱ ɢʀᴏᴜᴘ 🎯</b>")
                     except:
                         pass
-                    await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b>")
-                    return
+                    try:
+            for u in message.new_chat_members:
+                 if (temp.MELCOW).get('welcome') is not None:
+                    try:
+                        await (temp.MELCOW['welcome']).delete()
+                    except Exception as filters.chat(chats=-1001114885212):
+                        pass
+                    except:
+                        pass
+                temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
