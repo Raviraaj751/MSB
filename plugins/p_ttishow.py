@@ -1,7 +1,7 @@
 # iFilmsBotz
 
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong, PeerIdInvalid
 from info import ADMINS, LOG_CHANNEL, SUPPORT_CHAT, MELCOW_NEW_USERS, UPDATES, SUPPORT
 from database.users_chats_db import db
@@ -54,7 +54,7 @@ async def save_group(bot, message):
                         await (temp.MELCOW['welcome']).delete()
                     except:
                         pass
-                temp.MELCOW['welcome'] = await message.reply(f"<b>Hey , {u.mention}, Welcome to {message.chat.title}</b>")
+                temp.MELCOW['welcome'] = await msg.reply_photo(photo="https://telegra.ph/file/490f26ba76ecc9961c47c.jpg", caption=f"<b>Hᴇʏ {u.mention}, Wᴇʟᴄᴏᴍᴇ To {message.chat.title}</b>\n\n<b> Wʀɪᴛᴇ Oɴʟʏ Mᴏᴠɪᴇ & Sᴇʀɪᴇs Nᴀᴍᴇ.</b>\n\n<b>Usᴇʀ Dᴇᴛᴀɪʟs 🥡 :</b>\n<code>{user_id}</code>\n\n<b>Mᴜsᴛ Rᴇᴀᴅ Rᴜʟᴇs ᴏꜰ ᴛʜɪꜱ ɢʀᴏᴜᴘ 🎯</b>")
 
 
 @Client.on_message(filters.command('leave') & filters.user(ADMINS))
