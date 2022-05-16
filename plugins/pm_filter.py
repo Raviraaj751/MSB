@@ -956,7 +956,7 @@ async def advantage_spell_chok(msg):
            InlineKeyboardButton("ɢᴏᴏɢʟᴇ ꜱᴇᴀʀᴄʜ", url=f"https://www.google.com/search?q={search}"),
            InlineKeyboardButton("ɪᴍᴅʙ ꜱᴇᴀʀᴄʜ", url=f"https://www.imdb.com/find?q={search}")
         ]])
-        k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
+        k = await msg.reply_photo(photo="https://telegra.ph/file/eeaad7f955a7cbf7d60c0.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
         await asyncio.sleep(20)
         await k.delete()
         return
@@ -987,7 +987,7 @@ async def advantage_spell_chok(msg):
            InlineKeyboardButton("ɢᴏᴏɢʟᴇ ꜱᴇᴀʀᴄʜ", url=f"https://www.google.com/search?q={search}"),
            InlineKeyboardButton("ɪᴍᴅʙ ꜱᴇᴀʀᴄʜ", url=f"https://www.imdb.com/find?q={search}")
         ]])
-        k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
+        k = await msg.reply_photo(photo="https://telegra.ph/file/eeaad7f955a7cbf7d60c0.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
         await asyncio.sleep(20)
         await k.delete()
         return
@@ -998,7 +998,7 @@ async def advantage_spell_chok(msg):
            InlineKeyboardButton("ɢᴏᴏɢʟᴇ ꜱᴇᴀʀᴄʜ", url=f"https://www.google.com/search?q={search}"),
            InlineKeyboardButton("ɪᴍᴅʙ ꜱᴇᴀʀᴄʜ", url=f"https://www.imdb.com/find?q={search}")
         ]])
-        k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
+        k = await msg.reply_photo(photo="https://telegra.ph/file/eeaad7f955a7cbf7d60c0.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
         await asyncio.sleep(20)
         await k.delete()
         return
