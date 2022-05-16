@@ -351,7 +351,7 @@ class Script(object):
 
 <b>Nᴀᴍᴇ :</b> <b>{}</b>
 
-<b>Mᴇssᴀɢᴇ :</b> <b>{}</b>
+<b>Mᴇssᴀɢᴇ :</b> <code>{}</code>
 
 <b>⍟ #NotSubscribed ⍟</b>
 """
