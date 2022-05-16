@@ -951,12 +951,12 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-         button = InlineKeyboardMarkup(
+        button = InlineKeyboardMarkup(
         [[
            InlineKeyboardButton("✅ Google", url=f"https://www.google.com/search?q={search}"),
            InlineKeyboardButton("IMDb ⭕️", url=f"https://www.imdb.com/find?q={search}")
         ]])
-        k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>Hey, I Couldn't Find The Movie You're Looking For 😔😔</b>\n\n<b>Check Your Spelling In Google And Try Again.</b>\n\n<b>👉 If You Didn't Find That Film Use me👇</b>", reply_markup = button)
+        k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>Hey, I Couldn't Find The Movie You're Looking For 😔😔</b>\n\n<b>Check Your Spelling In Google And Try Again.</b>", reply_markup=button)
         await asyncio.sleep(12)
         await k.delete()
         return
@@ -982,24 +982,24 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist)) # removing duplicates
     if movielist:
-         button = InlineKeyboardMarkup(
+        button = InlineKeyboardMarkup(
         [[
            InlineKeyboardButton("✅ Google", url=f"https://www.google.com/search?q={search}"),
            InlineKeyboardButton("IMDb ⭕️", url=f"https://www.imdb.com/find?q={search}")
         ]])
-        k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>Hey, I Couldn't Find The Movie You're Looking For 😔😔</b>\n\n<b>Check Your Spelling In Google And Try Again.</b>\n\n<b>👉 If You Didn't Find That Film Use me👇</b>", reply_markup = button)
+        k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>Hey, I Couldn't Find The Movie You're Looking For 😔😔</b>\n\n<b>Check Your Spelling In Google And Try Again.</b>", reply_markup=button)
         await asyncio.sleep(20)
         await k.delete()
         await msg.delete()
         return
 
     if not movielist:
-         button = InlineKeyboardMarkup(
+        button = InlineKeyboardMarkup(
         [[
            InlineKeyboardButton("✅ Google", url=f"https://www.google.com/search?q={search}"),
            InlineKeyboardButton("IMDb ⭕️", url=f"https://www.imdb.com/find?q={search}")
         ]])
-        k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>Hey, I Couldn't Find The Movie You're Looking For 😔😔</b>\n\n<b>Check Your Spelling In Google And Try Again.</b>", reply_markup = button)
+        k = await msg.reply_photo(photo="https://telegra.ph/file/90774d8c83299d11b2199.jpg", caption="<b>Hey, I Couldn't Find The Movie You're Looking For 😔😔</b>\n\n<b>Check Your Spelling In Google And Try Again.</b>", reply_markup=button)
         await asyncio.sleep(20)
         await k.delete()
         await msg.delete()
