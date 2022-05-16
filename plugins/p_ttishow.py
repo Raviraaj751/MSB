@@ -56,7 +56,7 @@ async def save_group(bot, message):
                           InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs", url=f"t.me/Filmokamella"),
                           InlineKeyboardButton("ʀᴜʟᴇs", url=f"http://t.me/MissRose_bot?start=rules_-1001114885212")
                        ]])
-                       await message.reply_photo(photo="https://telegra.ph/file/490f26ba76ecc9961c47c.jpg", caption=f"<b>Hᴇʏ {u.mention} Wᴇʟᴄᴏᴍᴇ To {message.chat.title}</b>\n\n<b>Wʀɪᴛᴇ Oɴʟʏ Mᴏᴠɪᴇ & Sᴇʀɪᴇs Nᴀᴍᴇ.</b>\n\n<b>Usᴇʀ Dᴇᴛᴀɪʟs 🥡 :</b>\n<code>{message.from_user.id}</code>\n\n<b>Mᴜsᴛ Rᴇᴀᴅ Rᴜʟᴇs ᴏꜰ ᴛʜɪꜱ ɢʀᴏᴜᴘ 🎯</b>", reply_markup=button)
+                       await message.reply_photo(photo="https://telegra.ph/file/490f26ba76ecc9961c47c.jpg", caption=f"<b>Hᴇʏ {u.mention} Wᴇʟᴄᴏᴍᴇ To {message.chat.title}</b>\n\n<b>Wʀɪᴛᴇ Oɴʟʏ Mᴏᴠɪᴇ & Sᴇʀɪᴇs Nᴀᴍᴇ.</b>\n\n<b>Usᴇʀ Dᴇᴛᴀɪʟs 🥡 :</b>\n<b>{message.from_user.id}</b>\n\n<b>Mᴜsᴛ Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ Aɴᴅ Rᴇᴀᴅ Rᴜʟᴇs 🎯</b>", reply_markup=button)
                     except:
                         pass
       
