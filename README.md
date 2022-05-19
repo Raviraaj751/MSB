@@ -119,13 +119,4 @@ Licensed Under [GNU AGPL 3.0.](https://github.com/iFilmsBotz/MSB/blob/master/LIC
 Selling The Codes To Other People For Money Is Strictly Prohibited.
 
                                                             
-                                                            
----                                                     
-
-## GRAPH
-
-<details>
-<a href="https://github.com/ifilmsbotz"><img alt="iFilmsBotz's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=ifilmsbotz&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=falsetheme=light" /></a>
-</details>
-
----
+                                                           
