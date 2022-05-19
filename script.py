@@ -13,26 +13,13 @@ class Script(object):
 • Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Cᴏᴍᴍᴀɴᴅs...😍
 
 <b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella_X ⚔️</b>"""
-    ABOUT_TXT = """
-╭────[🔅Rᴇᴅ Assᴀssɪɴ Bᴏᴛ🔅]───⍟
-│
-├<b>🤖 Bot Name : <a href=https://t.me/Auto_Filter2_Bot>Rᴇᴅ Assᴀssɪɴ</a></b>
-│
-├<b>📢 Channel : <a href='https://t.me/iFilms_Studios'>iFilms Studios</a></b>
-│
-├<b>👥 Version : <a href='https://t.me/iFilms_Renamer_Bot'>v7.0 [Stable]</a></b>
-│
-├<b>🌐 Server : <a href='https://www.vpsserver.com/'>VPS</a></b>
-│
-├<b>📕 Library : <a href='https://github.com/pyrogram'>Pyrogram 1.2.8</a></b>
-│
-├<b>㊙ Language: <a href='https://www.python.org'>Python 3.9.4</a></b>
-│
-├<b>👨‍💻 Developer : <a href='https://t.me/iFilms_Owner'>༺Leͥgeͣnͫd༻</a></b>
-│
-├<b>🚸 Powered By : <a href='https://t.me/Filmokamella_X'>@Filmokamella_X ⚔️</a></b>
-│
-╰──────[Thanks 😊]───⍟"""
+    ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: <a href=https://t.me/Auto_Filter2_Bot>Rᴇᴅ Assᴀssɪɴ</a></b>
+    
+<b>✯ Cʀᴇᴀᴛᴏʀ: <a href=https://t.me/iFilms_Owner>༺Leͥgeͣnͫd༻</a></b>
+
+<b>✯ Mʏ Gʀᴏᴜᴘ: <a href=https://t.me/iFilmsChatz>iFɪℓᴍs Cнατ</a></b>
+
+<b>✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: ᴠ3.0.1 [Sᴛᴀʙʟᴇ]</b>"""
     SOURCE_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Sᴏᴜʀᴄᴇ Mᴏᴅᴜʟᴇ ⍟</b>
 
 <code>» Tʜɪs Is A Oᴘᴇɴ Sᴏᴜʀᴄᴇ Bᴏᴛ.</code>
@@ -172,18 +159,11 @@ class Script(object):
 <b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella_X ⚔️</b>"""
     STATUS_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Sᴛᴀᴛᴜs Mᴏᴅᴜʟᴇ ⍟</b>
     
-╭───[**🔅Progress Bar🔅**]───⍟
-│
-├<b>📁 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>1{}</code>
-│
-├<b>🚀 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>9{}</code>
-│
-├<b>⚡ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>7{}</code>
-│
-├<b>⏱️ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-│
-├<b>🌐 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-╰─────────────────⍟ 
+★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>1{}</code>
+★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>9{}</code>
+★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>7{}</code>
+★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
+★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
 
 <b>Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ: @Filmokamella_X ⚔️</b>"""
     PASTE_TXT = """<b>⍟ Wᴇʟᴄᴏᴍᴇ Tᴏ Pᴀsᴛᴇ Mᴏᴅᴜʟᴇ ⍟</b>
