@@ -54,6 +54,7 @@ You Can Deploy This Bot Anywhere.
   <summary>Deploy To Railway</summary>
 <br/>
 
+ 
 <p align="left">
 <a href="https://railway.app/new/template?template=https://github.com/ifilmsbotz/MSB"
 ">
@@ -116,3 +117,14 @@ python3 bot.py
 [![GNU Affero General Public License 3.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
 Licensed Under [GNU AGPL 3.0.](https://github.com/iFilmsBotz/MSB/blob/master/LICENSE)
 Selling The Codes To Other People For Money Is Strictly Prohibited.
+
+                                                            
+                                                            
+---                                                     
+
+## GRAPH
+<br>
+<a href="https://github.com/ifilmsbotz"><img alt="iFilmsBotz's Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=ifilmsbotz&bg_color=1F222E&color=F8D866&line=F85D7F&point=FFFFFF&hide_border=falsetheme=light" /></a>
+</br>
+
+---
