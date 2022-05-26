@@ -79,7 +79,7 @@
         },
         "UPSTREAM_REPO": {
             "description": "NOT MANDATORY",
-            "value": "https://iflilmsbotz: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@github.com/ifilmsbotz/msb",
+            "value": "https://iflilmsbotz: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@github.com/ifilmsbotz/msb",
             "required": false
         },
         "CUSTOM_FILE_CAPTION": {
