@@ -28,6 +28,23 @@
             "value": "7185665",
             "required": true
         },
+        "IMDB_TEMPLATE": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": "<b>Sᴇᴀʀᴄʜ Rᴇsᴜʟᴛs Fᴏʀ {message.from_user.mention}'s Qᴜᴇʀʏ "{query}" ☟</b>
+
+<b>🏷 Tɪᴛʟᴇ : <a href={url}>{title}</a> [{year}]</b>
+
+<b>📆 Rᴇʟᴇᴀsᴇ : {release_date}</b>
+
+<b>🎭 Gᴇɴʀᴇs : {genres}Etc.</b>
+
+<b>🌟 Rᴀᴛɪɴɢ : <a href={url}/ratings>{rating} / 10</a></b>
+
+<b>📣 Gʀᴏᴜᴘ : {message.chat.title} ©</b>
+
+<code>⏰ This Message Will Deleted After 90 Minutes.</code>",
+            "required": true
+        },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
             "value": "d87fe425a8127e5e64e30cb29cb64ff5",
@@ -79,14 +96,16 @@
         },
         "UPSTREAM_REPO": {
             "description": "NOT MANDATORY",
-            "value": "https://iflilmsbotz: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@github.com/ifilmsbotz/msb",
+            "value": "https://iflilmsbotz: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@github.com/ifilmsbotz/msb",
             "required": false
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "NOT MANDATORY",
             "value": "<code>🏷 Tɪᴛʟᴇ : {file_name}</code>
 
-📢 Jᴏɪɴ : @FilmokamellaX ❤️‍🔥",
+<code>💿 Sɪᴢᴇ : {file_size}</code>
+
+📢 Jᴏɪɴ : @iFilms_Studios ❤️‍🔥",
             "required": false
         },
         "COLLECTION_NAME": {
