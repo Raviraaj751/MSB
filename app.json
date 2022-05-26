@@ -81,7 +81,7 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "value": "-1001610529868",
+            "value": "-1001668257871",
             "required": false
         },
         "DATABASE_URI": {
