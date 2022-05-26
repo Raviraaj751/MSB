@@ -961,8 +961,7 @@ async def advantage_spell_chok(msg):
            await asyncio.sleep(20)
            await k.delete()
            return
-        except:
-            pass
+
     regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE) # look for imdb / wiki results
     gs = list(filter(regex.match, g_s))
     gs_parsed = [re.sub(r'\b(\-([a-zA-Z-\s])\-\simdb|(\-\s)?imdb|(\-\s)?wikipedia|\(|\)|\-|reviews|full|all|episode(s)?|film|movie|series)', '', i, flags=re.IGNORECASE) for i in gs]
@@ -995,8 +994,6 @@ async def advantage_spell_chok(msg):
            await asyncio.sleep(20)
            await k.delete()
            return
-        except:
-            pass
 
     if not movielist:
         if message.chat.id in filters.chat(chats=-1001114885212):
@@ -1009,8 +1006,6 @@ async def advantage_spell_chok(msg):
            await asyncio.sleep(20)
            await k.delete()
            return
-        except:
-            pass
 
 async def manual_filters(client, message, text=False):
     group_id = message.chat.id
