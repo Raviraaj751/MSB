@@ -102,7 +102,7 @@ python3 bot.py
 • /ban_users - to ban a user.
 • /unban_users - to unban a user.
 • /channel - to get list of total connected channels
-• /broadcast - to broadcast a message to all Eva Maria users
+• /broadcast - to broadcast a message to all users
 ```
                                                                                                                
 ## Support :
