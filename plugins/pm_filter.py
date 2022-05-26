@@ -951,15 +951,18 @@ async def advantage_spell_chok(msg):
     g_s += await search_gagala(msg.text)
     gs_parsed = []
     if not g_s:
-        button = InlineKeyboardMarkup(
-        [[
-           InlineKeyboardButton("ɢᴏᴏɢʟᴇ ꜱᴇᴀʀᴄʜ", url=f"https://www.google.com/search?q={search}"),
-           InlineKeyboardButton("ɪᴍᴅʙ ꜱᴇᴀʀᴄʜ", url=f"https://www.imdb.com/find?q={search}")
-        ]])
-        k = await msg.reply_photo(photo="https://telegra.ph/file/eeaad7f955a7cbf7d60c0.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
-        await asyncio.sleep(20)
-        await k.delete()
-        return
+        if message.chat.id in filters.chat(chats=-1001114885212):
+           button = InlineKeyboardMarkup(
+           [[
+             InlineKeyboardButton("ɢᴏᴏɢʟᴇ ꜱᴇᴀʀᴄʜ", url=f"https://www.google.com/search?q={search}"),
+             InlineKeyboardButton("ɪᴍᴅʙ ꜱᴇᴀʀᴄʜ", url=f"https://www.imdb.com/find?q={search}")
+           ]])
+           k = await msg.reply_photo(photo="https://telegra.ph/file/eeaad7f955a7cbf7d60c0.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
+           await asyncio.sleep(20)
+           await k.delete()
+           return
+        except:
+            pass
     regex = re.compile(r".*(imdb|wikipedia).*", re.IGNORECASE) # look for imdb / wiki results
     gs = list(filter(regex.match, g_s))
     gs_parsed = [re.sub(r'\b(\-([a-zA-Z-\s])\-\simdb|(\-\s)?imdb|(\-\s)?wikipedia|\(|\)|\-|reviews|full|all|episode(s)?|film|movie|series)', '', i, flags=re.IGNORECASE) for i in gs]
@@ -982,27 +985,32 @@ async def advantage_spell_chok(msg):
     movielist += [(re.sub(r'(\-|\(|\)|_)', '', i, flags=re.IGNORECASE)).strip() for i in gs_parsed]
     movielist = list(dict.fromkeys(movielist)) # removing duplicates
     if movielist:
-        button = InlineKeyboardMarkup(
-        [[
-           InlineKeyboardButton("ɢᴏᴏɢʟᴇ ꜱᴇᴀʀᴄʜ", url=f"https://www.google.com/search?q={search}"),
-           InlineKeyboardButton("ɪᴍᴅʙ ꜱᴇᴀʀᴄʜ", url=f"https://www.imdb.com/find?q={search}")
-        ]])
-        k = await msg.reply_photo(photo="https://telegra.ph/file/eeaad7f955a7cbf7d60c0.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
-        await asyncio.sleep(20)
-        await k.delete()
-        return
+        if message.chat.id in filters.chat(chats=-1001114885212):
+           button = InlineKeyboardMarkup(
+           [[
+             InlineKeyboardButton("ɢᴏᴏɢʟᴇ ꜱᴇᴀʀᴄʜ", url=f"https://www.google.com/search?q={search}"),
+             InlineKeyboardButton("ɪᴍᴅʙ ꜱᴇᴀʀᴄʜ", url=f"https://www.imdb.com/find?q={search}")
+           ]])
+           k = await msg.reply_photo(photo="https://telegra.ph/file/eeaad7f955a7cbf7d60c0.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
+           await asyncio.sleep(20)
+           await k.delete()
+           return
+        except:
+            pass
 
     if not movielist:
-        button = InlineKeyboardMarkup(
-        [[
-           InlineKeyboardButton("ɢᴏᴏɢʟᴇ ꜱᴇᴀʀᴄʜ", url=f"https://www.google.com/search?q={search}"),
-           InlineKeyboardButton("ɪᴍᴅʙ ꜱᴇᴀʀᴄʜ", url=f"https://www.imdb.com/find?q={search}")
-        ]])
-        k = await msg.reply_photo(photo="https://telegra.ph/file/eeaad7f955a7cbf7d60c0.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
-        await asyncio.sleep(20)
-        await k.delete()
-        return
-
+        if message.chat.id in filters.chat(chats=-1001114885212):
+           button = InlineKeyboardMarkup(
+           [[
+             InlineKeyboardButton("ɢᴏᴏɢʟᴇ ꜱᴇᴀʀᴄʜ", url=f"https://www.google.com/search?q={search}"),
+             InlineKeyboardButton("ɪᴍᴅʙ ꜱᴇᴀʀᴄʜ", url=f"https://www.imdb.com/find?q={search}")
+           ]])
+           k = await msg.reply_photo(photo="https://telegra.ph/file/eeaad7f955a7cbf7d60c0.jpg", caption="<b>ʜᴇʏ, ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴛʜᴇ ᴍᴏᴠɪᴇ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ 😔</b>\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ.</b>", reply_markup=button)
+           await asyncio.sleep(20)
+           await k.delete()
+           return
+        except:
+            pass
 
 async def manual_filters(client, message, text=False):
     group_id = message.chat.id
