@@ -327,7 +327,7 @@ class Script(object):
       
     STATUS = """{}\n\n🚮 Cʜᴀᴛ Mᴇᴍʙᴇʀ Sᴛᴀᴛᴜs :**\n\n```✯ Rᴇᴄᴇɴᴛʟʏ``` - {}\n```✯ Wɪᴛʜɪɴ Wᴇᴇᴋ``` - {}\n```✯ Wɪᴛʜɪɴ Mᴏɴᴛʜ``` - {}\n```✯ Lᴏɴɢ Tɪᴍᴇ Aɢᴏ``` - {}\n✯ Dᴇʟᴇᴛᴇᴅ Aᴄᴄᴏᴜɴᴛ - {}\n✯ Bᴏᴛ - {}\n✯ Uɴᴄᴀᴄʜᴇᴅ - {}"""
     
-    LOG_TEXT_G = """<b>⍟ Nᴇᴡ Gʀᴏᴜᴘ Lᴏɢs ⍟</b>
+    LOG_TEXT_G = """<b><a href=https://t.me/Auto_Filter2_Bot>⍟ Nᴇᴡ Gʀᴏᴜᴘ Lᴏɢs ⍟</a></b>
     
 <b>Gʀᴏᴜᴘ :</b> {}(<code>{}</code>)
 
@@ -337,7 +337,7 @@ class Script(object):
 
 <b>⍟ #NewGroup ⍟</b>
 """
-    LOG_TEXT_P = """<b>⍟ Nᴇᴡ Usᴇʀ Lᴏɢs ⍟</b>
+    LOG_TEXT_P = """<b><a href=https://t.me/Auto_Filter2_Bot>⍟ Nᴇᴡ Usᴇʀ Lᴏɢs ⍟</a></b>
 
 <b>ID :</b> <code>{}</code>
 
@@ -345,7 +345,7 @@ class Script(object):
 
 <b>⍟ #NewUser ⍟</b>
 """
-    NOT_SUBSCRIBED_TXT = """<b>⍟ Nᴏɴ Sᴜʙsᴄʀɪʙᴇʀ Lᴏɢs ⍟</b>
+    NOT_SUBSCRIBED_TXT = """<b><a href=https://t.me/Auto_Filter2_Bot>⍟ Nᴏɴ Sᴜʙsᴄʀɪʙᴇʀ Lᴏɢs ⍟</a></b>
 
 <b>ID :</b> <code>{}</code>
 
@@ -355,7 +355,7 @@ class Script(object):
 
 <b>⍟ #NotSubscribed ⍟</b>
 """
-    NO_RESULTS_TXT = """<b>⍟ Nᴏ Rᴇsᴜʟᴛs Lᴏɢs ⍟</b>
+    NO_RESULTS_TXT = """<b><a href=https://t.me/Auto_Filter2_Bot>⍟ Nᴏ Rᴇsᴜʟᴛs Lᴏɢs ⍟</a></b>
 
 <b>ID :</b> <code>{}</code>
 
@@ -365,7 +365,7 @@ class Script(object):
 
 <b>⍟ #NoResults ⍟</b>"""
 
-    FILE_TAKEN_TXT = """<b>⍟ Fɪʟᴇ Tᴀᴋᴇɴ Lᴏɢs ⍟</b>
+    FILE_TAKEN_TXT = """<b><a href=https://t.me/Auto_Filter2_Bot>⍟ Fɪʟᴇ Tᴀᴋᴇɴ Lᴏɢs ⍟</a></b>
 
 <b>ID :</b> <code>{}</code>
 
@@ -375,7 +375,7 @@ class Script(object):
 
 <b>⍟ #FileTaken ⍟</b>
 """
-    BANP_LOG_TXT = """<b>⍟ Bᴀɴɴᴇᴅ Usᴇʀ Lᴏɢs ⍟</b>
+    BANP_LOG_TXT = """<b><a href=https://t.me/Auto_Filter2_Bot>⍟ Bᴀɴɴᴇᴅ Usᴇʀ Lᴏɢs ⍟</a></b>
 
 <b>Aᴅᴍɪɴ :</b> </b> <b>{}</b>
 
@@ -383,7 +383,7 @@ class Script(object):
 
 <b>⍟ #BannedUser ⍟</b>
 """
-    UNBANP_LOG_TXT = """<b>⍟ UɴBᴀɴɴᴇᴅ Usᴇʀ Lᴏɢs ⍟</b>
+    UNBANP_LOG_TXT = """<b><a href=https://t.me/Auto_Filter2_Bot>⍟ UɴBᴀɴɴᴇᴅ Usᴇʀ Lᴏɢs ⍟</a></b>
 
 <b>Aᴅᴍɪɴ :</b> </b> <b>{}</b>
 
@@ -391,7 +391,7 @@ class Script(object):
 
 <b>⍟ #UnBannedUser ⍟</b>
 """
-    BANG_LOG_TXT = """<b>⍟ Bᴀɴɴᴇᴅ Gʀᴏᴜᴘ Lᴏɢs ⍟</b>
+    BANG_LOG_TXT = """<b><a href=https://t.me/Auto_Filter2_Bot>⍟ Bᴀɴɴᴇᴅ Gʀᴏᴜᴘ Lᴏɢs ⍟</a></b>
 
 <b>Cʜᴀᴛ ID :</b> <code>{}</code>
 
@@ -401,7 +401,7 @@ class Script(object):
 
 <b>⍟ #BannedGroup ⍟</b>
 """
-    UNBANG_LOG_TXT = """<b>⍟ UɴBᴀɴɴᴇᴅ Gʀᴏᴜᴘ Lᴏɢs ⍟</b>
+    UNBANG_LOG_TXT = """<b><a href=https://t.me/Auto_Filter2_Bot>⍟ UɴBᴀɴɴᴇᴅ Gʀᴏᴜᴘ Lᴏɢs ⍟</a></b>
 
 <b>Cʜᴀᴛ ID :</b> <code>{}</code>
 
